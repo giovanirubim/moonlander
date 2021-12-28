@@ -1,10 +1,10 @@
 let dom, ctx, canvasWidth, canvasHeight;
-let scale = 1;
+let scale = 1.6;
 let currentKeyboard;
 
 const lineWidth = 1;
-const lineColor = 'rgba(0, 192, 255, 1)';
-const bgColor = 'rgba(0, 127, 255, 0.2)';
+const lineColor = 'rgba(255, 255, 255, 0.75)';
+const bgColor = 'rgba(127, 192, 255, 0.2)';
 
 const clear = () => {
 	ctx.fillStyle = '#111';
