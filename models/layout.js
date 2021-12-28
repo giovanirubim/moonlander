@@ -1,6 +1,6 @@
 import LayoutKey from './layout-key.js';
 
-export default class PhysicalLayout {
+export default class Layout {
 	constructor({ name }) {
 		this.name = name;
 		this.layoutKeys = [];

@@ -1,8 +1,8 @@
-import PhysicalLayout from '../models/physical-layout.js';
+import Layout from '../models/layout.js';
 import { normal, long, red } from '../key-shapes/key-shapes.js';
 import { tiltedRectangleHeight } from '../math/math.js';
 
-const moonlander = new PhysicalLayout({ name: 'moonlander' });
+const moonlander = new Layout({ name: 'moonlander' });
 
 const xSpacing = 5;
 const ySpacing = 5;

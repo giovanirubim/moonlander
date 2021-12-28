@@ -1,14 +1,15 @@
+import symbols from '../symbols.js';
+
 export default class Key {
-	constructor({ layoutKey, code, heat = 0, label = 0 }) {
+	constructor({ layoutKey, code, heat = 0 }) {
 		this.layoutKey = layoutKey;
 		this.code = code;
 		this.heat = heat;
-		this.label = label;
 	}
 	draw(ctx, lineColor, bgColor) {
 		this.layoutKey.draw(
 			ctx,
-			this.label,
+			symbols[this.code],
 			lineColor,
 			bgColor,
 		);
